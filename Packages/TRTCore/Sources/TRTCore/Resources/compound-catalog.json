@@ -1,0 +1,134 @@
+{
+  "esquema": {
+    "meiaVidaDias": "Meia-vida em dias, conforme tabela de origem",
+    "meiaVidaHoras": "Meia-vida em horas, conforme tabela de origem",
+    "doseAtivaPercentual": "Fração de peso do esteroide-pai sobre o peso molecular do éster (%)",
+    "via": "oral | intramuscular",
+    "ester": "null quando o composto não é esterificado",
+    "origemMeiaVida": "medido | extrapolado, conforme o levantamento de fontes; ausente quando não informado"
+  },
+  "compostos": [
+    {
+      "nome": "Hemogenin",
+      "nomeQuimico": "Oximetolona",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.58, "meiaVidaHoras": 14, "doseAtivaPercentual": 100 }
+      ]
+    },
+    {
+      "nome": "Anavar",
+      "nomeQuimico": "Oxandrolona",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.42, "meiaVidaHoras": 10, "doseAtivaPercentual": 100 }
+      ]
+    },
+    {
+      "nome": "Boldenona",
+      "nomeQuimico": "Boldenona",
+      "esteres": [
+        { "ester": "Cipionato", "via": "intramuscular", "meiaVidaDias": 5, "meiaVidaHoras": 120, "doseAtivaPercentual": 70 },
+        { "ester": "Undecilenato", "via": "intramuscular", "meiaVidaDias": 14, "meiaVidaHoras": 336, "doseAtivaPercentual": 61, "observacao": "Listado na tabela de origem como 'Equipoise', nome comercial do undecilenato de boldenona" }
+      ]
+    },
+    {
+      "nome": "Dianabol",
+      "nomeQuimico": "Metandienona",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.21, "meiaVidaHoras": 5, "doseAtivaPercentual": 100 }
+      ]
+    },
+    {
+      "nome": "Di-hidroboldenona (DHB)",
+      "nomeQuimico": "1-Testosterona",
+      "esteres": [
+        { "ester": "Cipionato", "via": "intramuscular", "meiaVidaDias": 5, "meiaVidaHoras": 120, "doseAtivaPercentual": 70 }
+      ]
+    },
+    {
+      "nome": "Halotestin",
+      "nomeQuimico": "Fluoximesterona",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.29, "meiaVidaHoras": 7, "doseAtivaPercentual": 100 }
+      ]
+    },
+    {
+      "nome": "Masteron",
+      "nomeQuimico": "Drostanolona",
+      "esteres": [
+        { "ester": "Propionato", "via": "intramuscular", "meiaVidaDias": 0.8, "meiaVidaHoras": 19.2, "doseAtivaPercentual": 80 },
+        { "ester": "Enantato", "via": "intramuscular", "meiaVidaDias": 4.5, "meiaVidaHoras": 108, "doseAtivaPercentual": 70 }
+      ]
+    },
+    {
+      "nome": "Nandrolona",
+      "nomeQuimico": "19-Nortestosterona",
+      "esteres": [
+        { "ester": "Fenilpropionato", "via": "intramuscular", "meiaVidaDias": 1.5, "meiaVidaHoras": 36, "doseAtivaPercentual": 67 },
+        { "ester": "Decanoato", "via": "intramuscular", "meiaVidaDias": 7.5, "meiaVidaHoras": 180, "doseAtivaPercentual": 64 }
+      ]
+    },
+    {
+      "nome": "Primobolan",
+      "nomeQuimico": "Metenolona",
+      "esteres": [
+        { "ester": "Acetato", "via": "oral", "meiaVidaDias": 0.21, "meiaVidaHoras": 5, "doseAtivaPercentual": 100, "observacao": "Listado na tabela de origem apenas como 'Oral'; a forma oral da metenolona é o acetato" },
+        { "ester": "Enantato", "via": "intramuscular", "meiaVidaDias": 4.5, "meiaVidaHoras": 108, "doseAtivaPercentual": 70 }
+      ]
+    },
+    {
+      "nome": "Superdrol",
+      "nomeQuimico": "Metasterona",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.42, "meiaVidaHoras": 10, "doseAtivaPercentual": 100 }
+      ]
+    },
+    {
+      "nome": "Testosterona",
+      "nomeQuimico": "Testosterona",
+      "esteres": [
+        { "ester": null, "via": "intramuscular", "forma": "Suspensão aquosa", "meiaVidaDias": 0.5, "meiaVidaHoras": 12, "doseAtivaPercentual": 100 },
+        { "ester": "Propionato", "via": "intramuscular", "meiaVidaDias": 0.8, "meiaVidaHoras": 19.2, "doseAtivaPercentual": 80, "origemMeiaVida": "medido" },
+        { "ester": "Fenilpropionato", "via": "intramuscular", "meiaVidaDias": 1.5, "meiaVidaHoras": 36, "doseAtivaPercentual": 66, "origemMeiaVida": "extrapolado" },
+        { "ester": "Isocaproato", "via": "intramuscular", "meiaVidaDias": 4, "meiaVidaHoras": 96, "doseAtivaPercentual": 72, "origemMeiaVida": "extrapolado" },
+        { "ester": "Enantato", "via": "intramuscular", "meiaVidaDias": 4.5, "meiaVidaHoras": 108, "doseAtivaPercentual": 70, "origemMeiaVida": "medido" },
+        { "ester": "Cipionato", "via": "intramuscular", "meiaVidaDias": 5, "meiaVidaHoras": 120, "doseAtivaPercentual": 69, "origemMeiaVida": "extrapolado" },
+        { "ester": "Decanoato", "via": "intramuscular", "meiaVidaDias": 7.5, "meiaVidaHoras": 180, "doseAtivaPercentual": 62, "origemMeiaVida": "extrapolado" },
+        { "ester": "Undecanoato", "via": "intramuscular", "veiculo": "Óleo de semente de chá", "meiaVidaDias": 20.9, "meiaVidaHoras": 501.6, "doseAtivaPercentual": 61, "origemMeiaVida": "medido" },
+        { "ester": "Undecanoato", "via": "intramuscular", "veiculo": "Óleo de rícino", "meiaVidaDias": 33.9, "meiaVidaHoras": 813.6, "doseAtivaPercentual": 61, "origemMeiaVida": "medido" },
+        { "ester": "Durateston", "via": "intramuscular", "meiaVidaDias": 15, "meiaVidaHoras": 360, "doseAtivaPercentual": 68, "observacao": "Mistura de propionato, fenilpropionato, isocaproato e decanoato;" }
+      ]
+    },
+    {
+      "nome": "Trembolona",
+      "nomeQuimico": "Trembolona",
+      "esteres": [
+        { "ester": "Acetato", "via": "intramuscular", "meiaVidaDias": 1, "meiaVidaHoras": 24, "doseAtivaPercentual": 87 },
+        { "ester": "Enantato", "via": "intramuscular", "meiaVidaDias": 4.5, "meiaVidaHoras": 108, "doseAtivaPercentual": 70 },
+        { "ester": "Hexa-hidrobenzilcarbonato", "via": "intramuscular", "meiaVidaDias": 8, "meiaVidaHoras": 192, "doseAtivaPercentual": 66, "observacao": "Listado na tabela de origem como 'Hex (Parabolan)'" }
+      ]
+    },
+    {
+      "nome": "Trestolona (MENT)",
+      "nomeQuimico": "7alfa-Metil-19-nortestosterona",
+      "esteres": [
+        { "ester": "Acetato", "via": "intramuscular", "meiaVidaDias": 1, "meiaVidaHoras": 24, "doseAtivaPercentual": 87 },
+        { "ester": "Enantato", "via": "intramuscular", "meiaVidaDias": 4.5, "meiaVidaHoras": 108, "doseAtivaPercentual": 72 }
+      ]
+    },
+    {
+      "nome": "Turinabol",
+      "nomeQuimico": "4-Clorodeidrometiltestosterona",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.67, "meiaVidaHoras": 16, "doseAtivaPercentual": 100 }
+      ]
+    },
+    {
+      "nome": "Winstrol",
+      "nomeQuimico": "Estanozolol",
+      "esteres": [
+        { "ester": null, "via": "oral", "meiaVidaDias": 0.33, "meiaVidaHoras": 8, "doseAtivaPercentual": 100 },
+        { "ester": null, "via": "intramuscular", "forma": "Suspensão aquosa", "meiaVidaDias": 1, "meiaVidaHoras": 24, "doseAtivaPercentual": 87 }
+      ]
+    }
+  ]
+}

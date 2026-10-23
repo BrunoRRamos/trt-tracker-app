@@ -1,0 +1,1576 @@
+{
+  "sourceLanguage" : "pt-BR",
+  "strings" : {
+    " restantes" : {
+
+    },
+    "%" : {
+
+    },
+    "%@ adicionado ao estoque" : {
+
+    },
+    "%@ após a aplicação" : {
+
+    },
+    "%@ ativa" : {
+
+    },
+    "%@ ativo" : {
+
+    },
+    "%@ d" : {
+
+    },
+    "%@ de %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ de %2$@"
+          }
+        }
+      }
+    },
+    "%@ do %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ do %2$@"
+          }
+        }
+      }
+    },
+    "%@ excluído" : {
+
+    },
+    "%@ no total" : {
+
+    },
+    "%@ não tem aplicações registradas e será apagado." : {
+
+    },
+    "%@ por aplicação" : {
+
+    },
+    "%@ restante" : {
+
+    },
+    "%@ restantes" : {
+
+    },
+    "%@ salvo" : {
+
+    },
+    "%@ tem %@ registrada(s). Elas continuam no histórico, mas sem o vínculo com o vial e sem o volume descontado dele. Arquive para manter o vínculo." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ tem %2$@ registrada(s). Elas continuam no histórico, mas sem o vínculo com o vial e sem o volume descontado dele. Arquive para manter o vínculo."
+          }
+        }
+      }
+    },
+    "%@ · %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %@ intramusculares em veículo oleoso" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ intramusculares em veículo oleoso"
+          }
+        }
+      }
+    },
+    "%@ · %@ · %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ · %3$@"
+          }
+        }
+      }
+    },
+    "%@ · %@ às %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ às %3$@"
+          }
+        }
+      }
+    },
+    "%@: %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@"
+          }
+        }
+      }
+    },
+    "%@: %@ → %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@ → %3$@"
+          }
+        }
+      }
+    },
+    "%@: %lld aplicação(ões) restante(s) no vial atual." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$lld aplicação(ões) restante(s) no vial atual."
+          }
+        }
+      }
+    },
+    "%@: agora %@ do pico de uma dose" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: agora %2$@ do pico de uma dose"
+          }
+        }
+      }
+    },
+    "%@: agora %@ do pico de uma dose; estável entre %@ e %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: agora %2$@ do pico de uma dose; estável entre %3$@ e %4$@"
+          }
+        }
+      }
+    },
+    "%@: o estoque cobre menos de 7 dias." : {
+
+    },
+    "%@: sem perfil" : {
+
+    },
+    "%@×" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld aplicações" : {
+
+    },
+    "%lld compostos" : {
+
+    },
+    "%lld dias" : {
+
+    },
+    "%lld vials" : {
+
+    },
+    "%lld ésteres" : {
+
+    },
+    "%lld%%" : {
+
+    },
+    "0,9" : {
+
+    },
+    "1 aplicação" : {
+
+    },
+    "1 composto" : {
+
+    },
+    "1 dia" : {
+
+    },
+    "1 h" : {
+
+    },
+    "1 vial" : {
+
+    },
+    "1 éster" : {
+
+    },
+    "1× = pico de uma dose" : {
+
+    },
+    "2 h" : {
+
+    },
+    "2x por semana" : {
+
+    },
+    "3x por semana" : {
+
+    },
+    "4 h" : {
+
+    },
+    "90%" : {
+
+    },
+    "90% da dose liberada (t_90)" : {
+
+    },
+    "A alteração da dose vale apenas para aplicações futuras." : {
+
+    },
+    "A aplicação será registrada sem descontar estoque." : {
+
+    },
+    "A aplicação volta a ficar pendente." : {
+
+    },
+    "A cada 2 dias, contando a partir da data de início (%@)." : {
+
+    },
+    "A cada 2 dias, contando a partir de %@." : {
+
+    },
+    "A data de fim deve ser igual ou posterior à de início." : {
+
+    },
+    "A data de fim passa a ser hoje e os lembretes futuros são cancelados. O histórico é mantido." : {
+
+    },
+    "A data de início pode estar no passado, para um protocolo já em andamento." : {
+
+    },
+    "A data e a hora não podem estar no futuro." : {
+
+    },
+    "A dose deve ser maior que 0." : {
+
+    },
+    "Aberto em" : {
+
+    },
+    "Abra o app para manter os lembretes ativos." : {
+
+    },
+    "Abrir ajustes de notificação" : {
+
+    },
+    "Acaba em %@, %@ antes do fim." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Acaba em %1$@, %2$@ antes do fim."
+          }
+        }
+      }
+    },
+    "Adiar 30 min" : {
+
+    },
+    "Adicionar" : {
+
+    },
+    "Adicionar composto" : {
+
+    },
+    "Adicionar mais um igual" : {
+
+    },
+    "Adicione pelo menos um composto." : {
+
+    },
+    "Agenda" : {
+
+    },
+    "Agenda padrão" : {
+
+    },
+    "Agendado" : {
+
+    },
+    "Agendados" : {
+
+    },
+    "Agora não" : {
+
+    },
+    "Ainda não ativadas" : {
+
+    },
+    "Ajustar nível" : {
+
+    },
+    "Ajustar por" : {
+
+    },
+    "Ajuste" : {
+
+    },
+    "Ajuste registrado" : {
+
+    },
+    "Ajuste · %@ → %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ajuste · %1$@ → %2$@"
+          }
+        }
+      }
+    },
+    "Ajustes" : {
+
+    },
+    "Alertas" : {
+
+    },
+    "Antes" : {
+
+    },
+    "Antes de começar" : {
+
+    },
+    "Ao salvar, os vials e o histórico deste composto também serão apagados." : {
+
+    },
+    "Apaga protocolos, compostos, vials, histórico e preferências, e cancela todas as notificações." : {
+
+    },
+    "Apagar todos os dados" : {
+
+    },
+    "Apagar todos os dados?" : {
+
+    },
+    "Apagar tudo" : {
+
+    },
+    "Apelido" : {
+
+    },
+    "Apelido (marca, farmácia…)" : {
+
+    },
+    "Aplicada" : {
+
+    },
+    "Aplicada às %@ · %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Aplicada às %1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "Aplicar" : {
+
+    },
+    "Aplicação atrasada" : {
+
+    },
+    "Aplicação extra (fora da agenda)" : {
+
+    },
+    "Aplicação não encontrada" : {
+
+    },
+    "Aplicação prevista" : {
+
+    },
+    "Aplicação pulada" : {
+
+    },
+    "Aplicação registrada" : {
+
+    },
+    "Aplicação registrada · %@ descontados" : {
+
+    },
+    "Aplicação · −%@" : {
+
+    },
+    "Aplicações restantes" : {
+
+    },
+    "Arquivado" : {
+
+    },
+    "Arquivar" : {
+
+    },
+    "Arquivar vial" : {
+
+    },
+    "Arquivar vial?" : {
+
+    },
+    "As aplicações podem ser registradas sem descontar estoque." : {
+
+    },
+    "As aplicações registradas, puladas e os ajustes de vial aparecem aqui." : {
+
+    },
+    "As doses, os compostos e os protocolos são informados por você. O app não sugere nem ajusta doses." : {
+
+    },
+    "As notificações são criadas no próprio aparelho, sem internet. Você pode marcar a aplicação ou adiar 30 min direto pela notificação, e ocultar nomes e doses em Ajustes." : {
+
+    },
+    "Ativar lembretes" : {
+
+    },
+    "Ativar o bloqueio do TRT-Tracker" : {
+
+    },
+    "Ative os lembretes" : {
+
+    },
+    "Ativo" : {
+
+    },
+    "Ativos" : {
+
+    },
+    "Atrasada" : {
+
+    },
+    "Atrasadas" : {
+
+    },
+    "Até 40 caracteres. Compostos fora da lista não têm perfil de liberação." : {
+
+    },
+    "Avisar com %lld aplicação(ões) restante(s) no vial" : {
+
+    },
+    "Aviso de uso" : {
+
+    },
+    "Ações" : {
+
+    },
+    "Bloquear com %@" : {
+
+    },
+    "Borda" : {
+
+    },
+    "Buscar substância ou éster" : {
+
+    },
+    "C / C_max (adimensional)" : {
+
+    },
+    "C/C_max" : {
+
+    },
+    "C_max relativo (propionato = 1)" : {
+
+    },
+    "Cada composto pode ter o seu horário ou desligar o lembrete." : {
+
+    },
+    "Cada faixa é normalizada pelo pico de uma dose do próprio composto: compare formas, não alturas, e não some compostos diferentes." : {
+
+    },
+    "Cadastrar vial" : {
+
+    },
+    "Cadastre um vial no composto para acompanhar o nível e a duração." : {
+
+    },
+    "Cadastre um vial para acompanhar o nível, a duração e o estoque." : {
+
+    },
+    "Calculado com o vial atual do composto. Não considera perdas." : {
+
+    },
+    "Calculando métricas…" : {
+
+    },
+    "Calendário" : {
+
+    },
+    "Campo obrigatório." : {
+
+    },
+    "Cancelar" : {
+
+    },
+    "Cinética de liberação do éster" : {
+
+    },
+    "Cinética dos ésteres" : {
+
+    },
+    "Com erro" : {
+
+    },
+    "Começa %@" : {
+
+    },
+    "Composto" : {
+
+    },
+    "Composto ativo" : {
+
+    },
+    "Composto fora do catálogo." : {
+
+    },
+    "Composto fora do catálogo: escolha na lista um éster intramuscular (Editar protocolo) para ver o perfil." : {
+
+    },
+    "Composto oral: não segue cinética de depósito oleoso." : {
+
+    },
+    "Compostos" : {
+
+    },
+    "Compre %@." : {
+
+    },
+    "Concentração" : {
+
+    },
+    "Configure um código ou biometria no aparelho para usar o bloqueio." : {
+
+    },
+    "Confirmar" : {
+
+    },
+    "Contar a partir de" : {
+
+    },
+    "Continuar" : {
+
+    },
+    "Cor ordenada por t½: mais clara = liberação mais rápida." : {
+
+    },
+    "Criar protocolo" : {
+
+    },
+    "Crie um protocolo com seus compostos para ver aqui as aplicações do dia." : {
+
+    },
+    "Dados apenas neste aparelho, sem conta e sem coleta." : {
+
+    },
+    "Dados do vial" : {
+
+    },
+    "Data" : {
+
+    },
+    "Data de abertura" : {
+
+    },
+    "Depois" : {
+
+    },
+    "Desbloquear com %@" : {
+
+    },
+    "Desbloquear o TRT-Tracker" : {
+
+    },
+    "Desfazer" : {
+
+    },
+    "Desligado" : {
+
+    },
+    "Dia %lld de %lld" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dia %1$lld de %2$lld"
+          }
+        }
+      }
+    },
+    "Dia sim, dia não" : {
+
+    },
+    "Digite um número válido." : {
+
+    },
+    "Disponível só para ésteres intramusculares em veículo oleoso." : {
+
+    },
+    "Dom" : {
+
+    },
+    "Domingo" : {
+
+    },
+    "Dose" : {
+
+    },
+    "Dose ativa por aplicação" : {
+
+    },
+    "Dose diferente da padrão (%@). Vale só para este registro." : {
+
+    },
+    "Dose por aplicação" : {
+
+    },
+    "Dura até %@ · %@ restantes" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dura até %1$@ · %2$@ restantes"
+          }
+        }
+      }
+    },
+    "Dura até o fim do protocolo · %@ restantes" : {
+
+    },
+    "Editar" : {
+
+    },
+    "Editar aplicação" : {
+
+    },
+    "Editar composto" : {
+
+    },
+    "Editar protocolo" : {
+
+    },
+    "Editar pulo" : {
+
+    },
+    "Editar vial" : {
+
+    },
+    "Edição do vial" : {
+
+    },
+    "Em estoque" : {
+
+    },
+    "Em múltiplos do pico de uma dose única. V_d e F se cancelam na normalização: nenhuma concentração absoluta é inferível. Não substitui exames." : {
+
+    },
+    "Em múltiplos do pico de uma dose única: a forma muda com a frequência e os dias, não com a dose. V_d e F se cancelam na normalização; nenhuma concentração absoluta é inferível." : {
+
+    },
+    "Em múltiplos do pico de uma dose única; faixas sobre %@." : {
+
+    },
+    "Encerrado" : {
+
+    },
+    "Encerrado em %@" : {
+
+    },
+    "Encerrados" : {
+
+    },
+    "Encerrar agora" : {
+
+    },
+    "Encerrar o protocolo hoje?" : {
+
+    },
+    "Entendi e aceito" : {
+
+    },
+    "Escolha a substância e o éster na lista. A meia-vida, a origem dela e o % de composto ativo vêm do catálogo." : {
+
+    },
+    "Escolha na lista um éster intramuscular para ver o perfil." : {
+
+    },
+    "Escolha uma substância da lista." : {
+
+    },
+    "Escolher da lista" : {
+
+    },
+    "Esgotado" : {
+
+    },
+    "Esgotados e arquivados" : {
+
+    },
+    "Esta ação não pode ser desfeita." : {
+
+    },
+    "Esta ação é irreversível: %@, seus vials e todo o histórico de aplicações dele serão apagados." : {
+
+    },
+    "Esta ação é irreversível: o composto, seus vials e todo o histórico de aplicações dele serão apagados." : {
+
+    },
+    "Esta ação é irreversível: o protocolo, seus compostos, vials e todo o histórico serão apagados." : {
+
+    },
+    "Estado estável a partir de" : {
+
+    },
+    "Este vial" : {
+
+    },
+    "Este vial tem aplicações registradas. Arquivar tira o vial da fila e mantém o vínculo com o histórico; excluir mantém os registros, mas sem o vial." : {
+
+    },
+    "Este é o único composto do protocolo, e o protocolo precisa de pelo menos um. Adicione outro composto ou exclua o protocolo." : {
+
+    },
+    "Estoque (fila)" : {
+
+    },
+    "Estoque baixo" : {
+
+    },
+    "Estoque e protocolo" : {
+
+    },
+    "Estoque insuficiente" : {
+
+    },
+    "Estoque suficiente até o fim do protocolo" : {
+
+    },
+    "Ex.: TRT" : {
+
+    },
+    "Excluir" : {
+
+    },
+    "Excluir composto" : {
+
+    },
+    "Excluir composto?" : {
+
+    },
+    "Excluir mesmo assim" : {
+
+    },
+    "Excluir protocolo" : {
+
+    },
+    "Excluir protocolo?" : {
+
+    },
+    "Excluir registro" : {
+
+    },
+    "Excluir registro?" : {
+
+    },
+    "Excluir vial" : {
+
+    },
+    "Excluir vial?" : {
+
+    },
+    "Exige autenticação ao abrir o app e ao voltar após 1 minuto em segundo plano. O conteúdo fica oculto no seletor de apps." : {
+
+    },
+    "Exportar" : {
+
+    },
+    "Extra" : {
+
+    },
+    "Faixa" : {
+
+    },
+    "Faixa de C/C_max de uma dose única para %@. Toque e arraste para ler." : {
+
+    },
+    "Faixa: %@." : {
+
+    },
+    "Faltam %@ no estoque; essa parte não será descontada." : {
+
+    },
+    "Faltam %@." : {
+
+    },
+    "Faltam comprar: %@" : {
+
+    },
+    "Fim" : {
+
+    },
+    "Fora do modelo de depósito oleoso (oral ou suspensão aquosa): sem perfil de liberação." : {
+
+    },
+    "Fração da dose" : {
+
+    },
+    "Fração da dose liberada (adimensional)" : {
+
+    },
+    "Fração da dose que já saiu do depósito. Depende só de k_a: a saída mais confiável do modelo." : {
+
+    },
+    "Frequência" : {
+
+    },
+    "Histórico" : {
+
+    },
+    "Histórico do vial" : {
+
+    },
+    "Hoje" : {
+
+    },
+    "Hora" : {
+
+    },
+    "Hora da aplicação" : {
+
+    },
+    "Horário" : {
+
+    },
+    "Horário do protocolo: %@" : {
+
+    },
+    "Horário e lembrete" : {
+
+    },
+    "Horário padrão" : {
+
+    },
+    "Horário próprio" : {
+
+    },
+    "Igual ao volume total por padrão. Altere para cadastrar um vial que já foi aberto." : {
+
+    },
+    "Incerteza do C_max (P95/P5)" : {
+
+    },
+    "Informe a dose por aplicação." : {
+
+    },
+    "Informe um nome." : {
+
+    },
+    "Informe um vial de referência para calcular os vials mínimos." : {
+
+    },
+    "Intramuscular" : {
+
+    },
+    "Início" : {
+
+    },
+    "Legenda do calendário" : {
+
+    },
+    "Lembrete" : {
+
+    },
+    "Lembrete de aplicação" : {
+
+    },
+    "Lembrete de atraso" : {
+
+    },
+    "Lembrete desligado" : {
+
+    },
+    "Lembrete às %@" : {
+
+    },
+    "Lembretes ainda não ativados" : {
+
+    },
+    "Liberação cumulativa" : {
+
+    },
+    "Liberação cumulativa por éster" : {
+
+    },
+    "Liberação cumulativa — %@" : {
+
+    },
+    "Lote" : {
+
+    },
+    "Marcar como aplicada" : {
+
+    },
+    "Massa restante" : {
+
+    },
+    "Meia-vida" : {
+
+    },
+    "Modelo de depósito intramuscular oleoso, com a meia-vida tabelada tratada como de absorção (flip-flop). V_d e F se cancelam na normalização: nenhuma concentração absoluta é inferível. Estimativa teórica; não substitui exames laboratoriais." : {
+
+    },
+    "Motivo" : {
+
+    },
+    "Máximo" : {
+
+    },
+    "Métricas" : {
+
+    },
+    "Mês anterior" : {
+
+    },
+    "Mínimo" : {
+
+    },
+    "Negadas" : {
+
+    },
+    "Nenhum protocolo" : {
+
+    },
+    "Nenhum protocolo ativo ou agendado." : {
+
+    },
+    "Nenhum registro" : {
+
+    },
+    "Nenhum vial a comprar até o fim" : {
+
+    },
+    "Nenhum vial em estoque." : {
+
+    },
+    "Nenhum éster intramuscular" : {
+
+    },
+    "Nenhuma aplicação hoje" : {
+
+    },
+    "Nenhuma aplicação neste dia" : {
+
+    },
+    "Nenhuma aplicação ou ajuste neste vial." : {
+
+    },
+    "Nome" : {
+
+    },
+    "Nome do composto" : {
+
+    },
+    "Nome químico" : {
+
+    },
+    "Notificações" : {
+
+    },
+    "Notificações desativadas" : {
+
+    },
+    "Notificações discretas" : {
+
+    },
+    "Novo composto" : {
+
+    },
+    "Novo protocolo" : {
+
+    },
+    "Novo vial" : {
+
+    },
+    "Não descontar estoque" : {
+
+    },
+    "Não há aplicações previstas nos protocolos ativos ou agendados." : {
+
+    },
+    "Não registrada" : {
+
+    },
+    "Não é possível excluir" : {
+
+    },
+    "Níveis estimados" : {
+
+    },
+    "Nível" : {
+
+    },
+    "O TRT-Tracker é uma ferramenta de registro e lembrete das suas aplicações." : {
+
+    },
+    "O app não substitui orientação médica. Siga sempre a prescrição do seu médico." : {
+
+    },
+    "O composto desta notificação não existe mais." : {
+
+    },
+    "O composto será removido do protocolo." : {
+
+    },
+    "O estoque de um composto cobre menos de 7 dias." : {
+
+    },
+    "O horário define quando cada aplicação está prevista, mesmo com o lembrete desligado." : {
+
+    },
+    "O máximo é %@." : {
+
+    },
+    "O mínimo é %@." : {
+
+    },
+    "O perfil normalizado usa o modelo de depósito oleoso: escolha no catálogo um éster intramuscular para cada composto." : {
+
+    },
+    "O período não chega ao estado estável (5 meias-vidas de absorção = %@)." : {
+
+    },
+    "O protocolo precisa de pelo menos um composto. Os vials são cadastrados no detalhe de cada composto; a curva de nível estimado fica em Níveis estimados." : {
+
+    },
+    "O registro fica vinculado à aplicação prevista escolhida. Aplicações extras também descontam volume." : {
+
+    },
+    "O vial não tem a dose inteira: serão descontados %@." : {
+
+    },
+    "O vial sai da fila de estoque, mas o histórico de aplicações é preservado." : {
+
+    },
+    "O volume descontado volta para o vial e as projeções são recalculadas." : {
+
+    },
+    "O volume restante não pode ser maior que o volume total." : {
+
+    },
+    "O éster não altera a exposição total" : {
+
+    },
+    "OK" : {
+
+    },
+    "Observação" : {
+
+    },
+    "Observações" : {
+
+    },
+    "Oculta o nome do composto e a dose, exibindo apenas \"Lembrete de aplicação\" na tela bloqueada." : {
+
+    },
+    "Opcional" : {
+
+    },
+    "Oral" : {
+
+    },
+    "Oral ou suspensão aquosa: fora do modelo de depósito oleoso, sem perfil de liberação." : {
+
+    },
+    "Os gráficos de liberação e de perfil são estimativas teóricas e normalizadas, feitas pela meia-vida de uma tabela de referência. Não indicam concentração no sangue e não substituem exames." : {
+
+    },
+    "Os lembretes deste protocolo não serão exibidos." : {
+
+    },
+    "Os registros, pulos e ajustes aparecem aqui depois que você criar um protocolo." : {
+
+    },
+    "Outro (fora da lista)" : {
+
+    },
+    "Para avisar na hora de cada aplicação, o TRT-Tracker precisa da sua permissão para enviar notificações." : {
+
+    },
+    "Para compostos fora da lista, informe o nome e, se souber, a meia-vida para ver a curva estimada." : {
+
+    },
+    "Para o mesmo esteroide-pai e a mesma dose molar, a área sob a curva (AUC) é igual para qualquer éster: ele muda só a distribuição no tempo — pico alto e curto ou pico baixo e longo, com a mesma área." : {
+
+    },
+    "Perfil" : {
+
+    },
+    "Perfil normalizado" : {
+
+    },
+    "Perfil normalizado com esta agenda" : {
+
+    },
+    "Perfil normalizado do protocolo" : {
+
+    },
+    "Perfil plasmático normalizado (Bateman) de uma dose. k_e não é publicado: a faixa mostra o efeito de assumir valores diferentes." : {
+
+    },
+    "Permitidas" : {
+
+    },
+    "Período" : {
+
+    },
+    "Pico de uma dose" : {
+
+    },
+    "Pico estável" : {
+
+    },
+    "Por aplicação" : {
+
+    },
+    "Por aplicação de %@" : {
+
+    },
+    "Por que não há valor absoluto" : {
+
+    },
+    "Porcentagem" : {
+
+    },
+    "Prevista" : {
+
+    },
+    "Prevista para %@" : {
+
+    },
+    "Privacidade" : {
+
+    },
+    "Progresso do protocolo" : {
+
+    },
+    "Protocolo" : {
+
+    },
+    "Protocolos" : {
+
+    },
+    "Próxima aplicação %@" : {
+
+    },
+    "Próxima: %@ · %@ às %@" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Próxima: %1$@ · %2$@ às %3$@"
+          }
+        }
+      }
+    },
+    "Próximo mês" : {
+
+    },
+    "Próximo vial a partir de %@" : {
+
+    },
+    "Pulada" : {
+
+    },
+    "Pulada: %@" : {
+
+    },
+    "Pular" : {
+
+    },
+    "Pular aplicação" : {
+
+    },
+    "Pular não desconta volume do vial e remove o lembrete desta aplicação." : {
+
+    },
+    "Qua" : {
+
+    },
+    "Quando o vial atual esvazia, o próximo da fila vira o atual. Toque e segure ou use Editar para reordenar; deslize para excluir ou arquivar." : {
+
+    },
+    "Quarta-feira" : {
+
+    },
+    "Qui" : {
+
+    },
+    "Quinta-feira" : {
+
+    },
+    "Registrar aplicação" : {
+
+    },
+    "Registrar aplicação extra" : {
+
+    },
+    "Reiniciar contagem a partir de uma data" : {
+
+    },
+    "Remover" : {
+
+    },
+    "Remover composto?" : {
+
+    },
+    "Restante" : {
+
+    },
+    "Resultado" : {
+
+    },
+    "Salvar" : {
+
+    },
+    "Se a aplicação não for registrada nem pulada, um segundo lembrete é enviado após o intervalo escolhido. Também há aviso quando o estoque de um composto cobre menos de 7 dias." : {
+
+    },
+    "Se o vial já tiver aplicações, a correção fica registrada como ajuste no histórico." : {
+
+    },
+    "Seg" : {
+
+    },
+    "Seguir a agenda do protocolo" : {
+
+    },
+    "Segunda-feira" : {
+
+    },
+    "Selecionado" : {
+
+    },
+    "Selecione exatamente %lld dias (%lld selecionados)." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Selecione exatamente %1$lld dias (%2$lld selecionados)."
+          }
+        }
+      }
+    },
+    "Selecione exatamente %lld dias." : {
+
+    },
+    "Seleção" : {
+
+    },
+    "Sem aplicações previstas até o fim do protocolo" : {
+
+    },
+    "Sem histórico" : {
+
+    },
+    "Sem nome" : {
+
+    },
+    "Sem vial atual: informe um vial de referência para o cálculo." : {
+
+    },
+    "Sem vial cadastrado" : {
+
+    },
+    "Sem vial cadastrado: informe volume e concentração de referência. Não considera perdas." : {
+
+    },
+    "Sem vial disponível: o registro não desconta estoque." : {
+
+    },
+    "Sem éster" : {
+
+    },
+    "Sensibilidade a k_e" : {
+
+    },
+    "Sensibilidade a k_e — %@" : {
+
+    },
+    "Sensibilidade do perfil normalizado a k_e" : {
+
+    },
+    "Seringa U-100: 1 ml = 100 UI." : {
+
+    },
+    "Seringa U-100: 1 ml = 100 UI. A concentração do rótulo é do éster; %@ dela é composto ativo." : {
+
+    },
+    "Seus dados ficam apenas neste aparelho. Não há conta, servidor nem coleta de dados." : {
+
+    },
+    "Sex" : {
+
+    },
+    "Sexta-feira" : {
+
+    },
+    "Simulando V_d de 0,5 a 2 L/kg, F de 0,5 a 1 e a incerteza do t½ (×/÷1,2 se medido, ×/÷2 se extrapolado ou sem origem), o C_max absoluto varia %@× ou mais entre os percentis 5 e 95 (10⁴ amostras). Um valor pontual em ng/dL não se sustenta." : {
+
+    },
+    "Situação: %@" : {
+
+    },
+    "Sobre" : {
+
+    },
+    "Substância" : {
+
+    },
+    "Suspensão aquosa: não segue cinética de depósito oleoso." : {
+
+    },
+    "Sáb" : {
+
+    },
+    "Sábado" : {
+
+    },
+    "Só ésteres intramusculares em veículo oleoso. Orais e suspensões aquosas não seguem cinética de depósito e ficam fora do modelo." : {
+
+    },
+    "TRT-Tracker bloqueado" : {
+
+    },
+    "TRT-Tracker · %@" : {
+
+    },
+    "Tem certeza?" : {
+
+    },
+    "Tempo (h)" : {
+
+    },
+    "Tempo após a aplicação (escala log)" : {
+
+    },
+    "Tempo após uma aplicação" : {
+
+    },
+    "Tempo para liberar 90% da dose" : {
+
+    },
+    "Tempo para liberar 90% da dose (t_90)" : {
+
+    },
+    "Ter" : {
+
+    },
+    "Terça-feira" : {
+
+    },
+    "Todos os compostos" : {
+
+    },
+    "Todos os dias" : {
+
+    },
+    "Todos os dias da semana." : {
+
+    },
+    "Todos os protocolos, vials e o histórico serão apagados deste aparelho." : {
+
+    },
+    "Toque e arraste no gráfico para ler a faixa em cada data." : {
+
+    },
+    "Toque e arraste para ler a fração liberada de cada éster." : {
+
+    },
+    "Toque para escolher a data" : {
+
+    },
+    "Um protocolo reúne seus compostos, a agenda e os vials. Comece criando o primeiro." : {
+
+    },
+    "Um vial está perto do fim." : {
+
+    },
+    "Use de 1% a 100%." : {
+
+    },
+    "Use no máximo %lld caracteres." : {
+
+    },
+    "Use para refletir perdas, como líquido descartado ou volume morto da seringa." : {
+
+    },
+    "Use passos de 0,1 ml." : {
+
+    },
+    "Vai sobrar %@." : {
+
+    },
+    "Vale estável" : {
+
+    },
+    "Vale para todos os compostos, que podem ter a sua própria agenda." : {
+
+    },
+    "Validade" : {
+
+    },
+    "Versão" : {
+
+    },
+    "Via" : {
+
+    },
+    "Vial" : {
+
+    },
+    "Vial %lld" : {
+
+    },
+    "Vial acabando" : {
+
+    },
+    "Vial arquivado" : {
+
+    },
+    "Vial atual" : {
+
+    },
+    "Vial atualizado" : {
+
+    },
+    "Vial excluído" : {
+
+    },
+    "Vials mínimos para o protocolo" : {
+
+    },
+    "Vials para o protocolo" : {
+
+    },
+    "Você pode registrar uma aplicação extra, fora da agenda." : {
+
+    },
+    "Volume" : {
+
+    },
+    "Volume de 0,1 a 100 ml (passo de 0,1) e concentração de 1 a 1.000 mg/ml." : {
+
+    },
+    "Volume do vial" : {
+
+    },
+    "Volume insuficiente para a próxima aplicação" : {
+
+    },
+    "Volume restante" : {
+
+    },
+    "Volume total" : {
+
+    },
+    "Válido até" : {
+
+    },
+    "amanhã" : {
+
+    },
+    "código do aparelho" : {
+
+    },
+    "dura até %@" : {
+
+    },
+    "em %@" : {
+
+    },
+    "hoje" : {
+
+    },
+    "há %@" : {
+
+    },
+    "k_e com t½ de eliminação %@ h" : {
+
+    },
+    "meia-vida %@" : {
+
+    },
+    "ml" : {
+
+    },
+    "origem do t½ não informada" : {
+
+    },
+    "sem desconto de estoque" : {
+
+    },
+    "sem perfil de liberação" : {
+
+    },
+    "sobra %@" : {
+
+    },
+    "t_90 (dias)" : {
+
+    },
+    "t_max conforme o k_e assumido" : {
+
+    },
+    "t_max varia com o k_e assumido (%@). C_max relativo vale para dose molar igual do esteroide-pai, sob flip-flop." : {
+
+    },
+    "t½ %@" : {
+
+    },
+    "t½ de absorção" : {
+
+    },
+    "t½ de eliminação %@ h" : {
+
+    },
+    "t½ extrapolado" : {
+
+    },
+    "t½ extrapolado ou não informado" : {
+
+    },
+    "t½ medido" : {
+
+    },
+    "vazio" : {
+
+    },
+    "Éster" : {
+
+    },
+    "× pico de uma dose (adimensional)" : {
+
+    },
+    "Último dia" : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode — dados por usuário (o scheme compartilhado em xcshareddata/ deve ser versionado)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+timeline.xctimeline
+playground.xcworkspace
+
+# Saídas de build
+build/
+DerivedData/
+*.xcresult
+
+# Swift Package Manager (pacote local Packages/TRTCore)
+.build/
+.swiftpm/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
