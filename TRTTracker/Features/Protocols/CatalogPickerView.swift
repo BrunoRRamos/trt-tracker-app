@@ -104,10 +104,8 @@ struct CatalogPickerView: View {
         var parts = [entry.variant.route.title,
                      String(localized: "meia-vida \(Formatting.halfLife(hours: entry.variant.halfLifeHours))"),
                      String(localized: "\(Formatting.percentValue(entry.variant.activeDosePercent)) ativo")]
-        if entry.isDepotModelEligible {
+        if entry.variant.halfLifeOrigin != nil {
             parts.append(entry.variant.halfLifeOrigin.label)
-        } else {
-            parts.append(String(localized: "sem perfil de liberação"))
         }
         return parts.joined(separator: " · ")
     }

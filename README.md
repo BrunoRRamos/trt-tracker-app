@@ -1,15 +1,13 @@
 # TRT-Tracker
 
 App para iPhone que acompanha protocolos de TRT e outras medicações: protocolos, compostos, vials,
-agenda de aplicações, registro do que foi aplicado, projeção de duração dos vials, lembretes locais
-e perfis de liberação dos ésteres.
+agenda de aplicações, registro do que foi aplicado, projeção de duração dos vials e lembretes locais.
 
 Sem login e 100% offline: todos os dados ficam no aparelho (SwiftData), não há servidor, analytics
 nem SDKs de terceiros.
 
 > **Aviso.** O TRT-Tracker é uma ferramenta de registro e lembrete. As doses são informadas pelo
-> usuário e o app não sugere nem ajusta doses. Os gráficos de liberação são estimativas teóricas
-> e normalizadas, e não substituem orientação médica nem exames laboratoriais.
+> usuário e o app não sugere nem ajusta doses, e não substitui orientação médica.
 
 ## Requisitos
 
@@ -17,7 +15,7 @@ nem SDKs de terceiros.
 |---|---|
 | Aparelho | iPhone com iOS 17 ou superior (sem layout para iPad) |
 | Desenvolvimento | Xcode 16 ou superior (o projeto usa grupos sincronizados com pastas) |
-| Linguagem | Swift 5, SwiftUI, SwiftData, Swift Charts, UserNotifications |
+| Linguagem | Swift 5, SwiftUI, SwiftData, UserNotifications |
 | Dependências externas | nenhuma |
 
 ## Como rodar
@@ -51,9 +49,7 @@ Os testes cobrem:
 - os exemplos da especificação (vial que "dura até qui, 10 dez" e "2 vials · 24 aplicações · sobra 8,0 ml");
 - agenda (todos os dias, dia sim/dia não com recontagem, 2x e 3x por semana), situação do protocolo
   e das aplicações, volumes, divisão de dose entre vials, projeções e vials a comprar;
-- leitura, validação e filtro do catálogo de compostos;
-- os 7 invariantes analíticos do modelo de cinética (meia-vida, t_90, normalização, t_max,
-  AUC independente de k_a, limite flip-flop e monotonicidade), métricas, Monte Carlo e CSV.
+- leitura, validação e filtro do catálogo de compostos.
 
 ### Integração contínua
 
@@ -74,8 +70,8 @@ TRTTracker/
   Model/                    SwiftData (SchemaV1, SchemaV2 + migração) e regras derivadas
   Services/                 persistência, registro de doses, vials, compostos, notificações, bloqueio
   Features/                 telas: Hoje, Protocolos, Compostos, Vials, Histórico, Calendário,
-                            Níveis (cinética), Ajustes, Onboarding
-  UI/                       tema, componentes e gráficos
+                            Ajustes, Onboarding
+  UI/                       tema e componentes
   Resources/                Asset Catalog (tokens de cor), String Catalog, Privacy Manifest
 Packages/TRTCore/           lógica pura, sem UI e sem I/O de app
   Sources/TRTCore/
@@ -106,35 +102,15 @@ cadastro de compostos. Cada variante tem `ester`, `via`, `forma`/`veiculo`, `mei
 
 Ao carregar, variantes com meia-vida ≤ 0, `doseAtivaPercentual` fora de (0, 100] ou duplicadas
 são descartadas; divergência entre `meiaVidaDias × 24` e `meiaVidaHoras` gera só aviso.
-Compostos fora da lista podem ser cadastrados como "Outro", sem perfil de liberação.
-
-## Modelo de cinética
-
-Implementa a spec de liberação de ésteres em veículo oleoso (`ReleaseKinetics`,
-`ReleaseMetrics`, `RegimenProfile` no `TRTCore`):
-
-- só ésteres **intramusculares** (orais e suspensões aquosas ficam fora);
-- a meia-vida tabelada é tratada como de **absorção** (flip-flop): `k_a = ln 2 / t½`;
-- saída primária: liberação cumulativa `F_lib(t) = 1 − e^(−k_a·t)`;
-- saída secundária: Bateman normalizada (`C / C_max`), com `k_e` varrido em t½ de 1; 4,3; 12 e 24 h
-  e exibido como faixa;
-- métricas: t_90, t_99, C_max relativo ao propionato de testosterona, t_max (sempre com o `k_e`
-  assumido) e a incerteza do C_max absoluto por Monte Carlo (10⁴ amostras);
-- nenhuma concentração absoluta: V_d e F se cancelam na normalização.
-
-No app: **Ajustes ▸ Cinética dos ésteres** (liberação, t_90, sensibilidade, métricas e exportação
-de `metricas.csv`, `fig_liberacao` e `fig_sensibilidade` em PNG/PDF) e o **perfil normalizado**
-do protocolo, que soma as doses da agenda em múltiplos do pico de uma dose.
+Compostos fora da lista podem ser cadastrados como "Outro".
 
 ## Pendências e decisões em aberto
 
 - **P2 fora do app:** duplicar protocolo, exportar/importar backup, rodízio de local de aplicação,
   margem de perda.
-- **Divergências da especificação original**, a pedido: exclusão de vial com aplicações
-  (com "Arquivar" como primeira opção) e os gráficos de cinética (antes fora do MVP).
+- **Divergência da especificação original**, a pedido: exclusão de vial com aplicações
+  (com "Arquivar" como primeira opção).
 - **Durateston:** `meiaVidaHoras` é 360, mas a `observacao` diz que o valor corresponde ao
   componente propionato (19,2 h). Confirmar qual está certo.
-- **Monte Carlo:** com t½ ×/÷2 para valores extrapolados, a razão P95/P5 do C_max fica perto de
-  7×. A spec não fixa essa largura (`UncertaintyParameters`).
 - **Decisões assumidas da especificação:** concentração em mg/ml, dose em mg, agenda opcional
   por composto, 7 dias até "Não registrada", vários protocolos ativos, iOS 17 e só iPhone.

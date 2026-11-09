@@ -21,7 +21,7 @@ public struct CatalogVariant: Codable, Hashable, Sendable {
     public let form: String?
     public let vehicle: String?
     public let halfLifeDays: Double
-    /// Meia-vida tabelada, em horas. Para depósito oleoso é a meia-vida de absorção (flip-flop).
+    /// Meia-vida tabelada, em horas.
     public let halfLifeHours: Double
     /// Fração de peso do esteroide-pai sobre o peso molecular do éster (%).
     public let activeDosePercent: Double
@@ -40,10 +40,6 @@ public struct CatalogVariant: Codable, Hashable, Sendable {
         case note = "observacao"
         case halfLifeOrigin = "origemMeiaVida"
     }
-
-    /// Filtro obrigatório do modelo de depósito oleoso: via intramuscular e composto esterificado.
-    /// Orais e suspensões aquosas não seguem cinética de depósito.
-    public var isDepotModelEligible: Bool { route == .intramuscular && ester != nil }
 }
 
 public struct CatalogCompound: Codable, Sendable, Identifiable {
@@ -98,7 +94,6 @@ public struct CatalogEntry: Identifiable, Hashable, Sendable {
     }
 
     public var activeFraction: Double { variant.activeDosePercent / 100 }
-    public var isDepotModelEligible: Bool { variant.isDepotModelEligible }
 }
 
 /// Problema encontrado na validação do catálogo.
@@ -179,19 +174,5 @@ public struct CompoundCatalog: Sendable {
 
     public func entries(of compound: CatalogCompound) -> [CatalogEntry] {
         entries.filter { $0.compoundName == compound.name }
-    }
-
-    /// Ésteres intramusculares, os únicos tratados pelo modelo de depósito oleoso.
-    public var depotEntries: [CatalogEntry] { entries.filter(\.isDepotModelEligible) }
-
-    /// Compostos que têm pelo menos um éster no modelo de depósito.
-    public var depotCompounds: [CatalogCompound] {
-        compounds.filter { compound in depotEntries.contains { $0.compoundName == compound.name } }
-    }
-
-    /// Referência do C_max relativo: propionato de testosterona (= 1).
-    public var referenceEntry: CatalogEntry? {
-        depotEntries.first { $0.compoundName == "Testosterona" && $0.variant.ester == "Propionato" }
-            ?? depotEntries.first { $0.variant.ester == "Propionato" }
     }
 }

@@ -154,7 +154,7 @@ struct ProtocolFormView: View {
         } header: {
             Text("Compostos")
         } footer: {
-            Text("O protocolo precisa de pelo menos um composto. Os vials são cadastrados no detalhe de cada composto; a curva de nível estimado fica em Níveis estimados.")
+            Text("O protocolo precisa de pelo menos um composto. Os vials são cadastrados no detalhe de cada composto.")
         }
         .listRowBackground(Theme.surface)
     }
@@ -199,8 +199,7 @@ struct ProtocolFormView: View {
     private func compoundForm(_ compound: CompoundDraft, isNew: Bool) -> some View {
         CompoundFormView(draft: compound, protocolStart: draft.start, protocolEnd: draft.end,
                          protocolSchedule: draft.schedule.schedule, protocolHour: draft.hour,
-                         protocolMinute: draft.minute, isNew: isNew,
-                         colorIndex: draft.compounds.firstIndex { $0.id == compound.id } ?? draft.compounds.count) { saved in
+                         protocolMinute: draft.minute, isNew: isNew) { saved in
             if let index = draft.compounds.firstIndex(where: { $0.id == saved.id }) {
                 draft.compounds[index] = saved
             } else {

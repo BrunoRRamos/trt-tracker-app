@@ -75,9 +75,6 @@ struct SettingsView: View {
                 NavigationLink("Aviso de uso") {
                     DisclaimerView(mode: .readOnly)
                 }
-                NavigationLink("Cinética dos ésteres") {
-                    KineticsCatalogView()
-                }
                 Label("Dados apenas neste aparelho, sem conta e sem coleta.", systemImage: "lock.shield")
                     .font(.footnote)
                     .foregroundStyle(Theme.textSecondary)

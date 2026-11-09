@@ -48,7 +48,6 @@ struct CompoundDetailView: View {
             summarySection
             currentSection(insights)
             stockSection(insights)
-            levelSection
             Section("Estoque e protocolo") {
                 StockInsightsView(compound: compound, insights: insights)
                     .padding(.vertical, 4)
@@ -99,36 +98,6 @@ struct CompoundDetailView: View {
                     .font(.footnote)
                     .foregroundStyle(Theme.textSecondary)
             }
-        }
-        .listRowBackground(Theme.surface)
-    }
-
-    /// Perfil normalizado deste composto: registros até agora e projeção da agenda.
-    @ViewBuilder
-    private var levelSection: some View {
-        Section {
-            if let treatment = compound.treatmentProtocol, let entry = compound.depotEntry,
-               let series = ProfileSeriesBuilder.series(for: compound, now: now,
-                                                        range: ProfileSeriesBuilder.range(for: treatment, compounds: [compound])) {
-                ProfileChartView(series: [series], now: now, protocolEnd: treatment.endDay.date(hour: 23, minute: 59))
-                    .padding(.vertical, 4)
-                ProfileStatsView(series: series)
-                NavigationLink {
-                    EsterKineticsView(compoundName: entry.compoundName, highlightKey: entry.key)
-                } label: {
-                    Label("Cinética de liberação do éster", systemImage: "chart.line.uptrend.xyaxis")
-                }
-            } else {
-                Text(compound.catalogEntry == nil
-                     ? String(localized: "Composto fora do catálogo: escolha na lista um éster intramuscular (Editar protocolo) para ver o perfil.")
-                     : String(localized: "Oral ou suspensão aquosa: fora do modelo de depósito oleoso, sem perfil de liberação."))
-                    .font(.footnote)
-                    .foregroundStyle(Theme.textSecondary)
-            }
-        } header: {
-            Text("Perfil normalizado")
-        } footer: {
-            Text("Em múltiplos do pico de uma dose única. V_d e F se cancelam na normalização: nenhuma concentração absoluta é inferível. Não substitui exames.")
         }
         .listRowBackground(Theme.surface)
     }

@@ -70,7 +70,7 @@ enum SchemaV2: VersionedSchema {
 
         /// Variante do catálogo de compostos (`CatalogEntry.key`); nil = composto fora da lista.
         var catalogKey: String?
-        /// Meia-vida aparente em horas usada na curva de nível estimado; nil = sem curva.
+        /// Meia-vida tabelada em horas, copiada do catálogo; nil para compostos fora da lista.
         var halfLifeHours: Double?
         /// Fração de composto ativo sobre o peso do éster (%); 100 quando não esterificado.
         var activeDosePercent: Double = 100

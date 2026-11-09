@@ -14,19 +14,6 @@ enum Theme {
     static let warning = Color("warning")
     static let critical = Color("critical")
 
-    /// Paleta categórica das séries dos gráficos, em ordem fixa (validada para daltonismo na superfície escura).
-    /// A cor acompanha o composto (pela posição no protocolo), nunca a posição no gráfico.
-    static func chart(_ index: Int) -> Color {
-        Color("chart\(((index % 8) + 8) % 8 + 1)")
-    }
-
-    /// Rampa sequencial azul (um hue, clara → escura), para séries com ordem natural de magnitude
-    /// (ésteres ordenados por t½). `position` de 0 (mais curto, mais claro) a 1 (mais longo, mais escuro).
-    /// O passo mais escuro (600) ainda passa de 2:1 sobre a superfície escura.
-    static func ramp(_ position: Double) -> Color {
-        let step = Int((min(1, max(0, position)) * 10).rounded())
-        return Color("ramp\(100 + step * 50)")
-    }
 
     static let cornerRadius: CGFloat = 16
     /// Grade de 8 pt.

@@ -170,11 +170,6 @@ struct ProtocolDetailView: View {
                 linkLabel(String(localized: "Calendário"), icon: "calendar")
             }
             NavigationLink {
-                PlasmaLevelsView(treatment: treatment)
-            } label: {
-                linkLabel(String(localized: "Níveis estimados"), icon: "chart.xyaxis.line")
-            }
-            NavigationLink {
                 HistoryListScreen(treatment: treatment)
             } label: {
                 linkLabel(String(localized: "Histórico"), icon: "clock.arrow.circlepath")

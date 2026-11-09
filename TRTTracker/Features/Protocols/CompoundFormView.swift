@@ -14,12 +14,10 @@ struct CompoundFormView: View {
     let protocolHour: Int
     let protocolMinute: Int
     let isNew: Bool
-    /// Cor da série: a posição do composto no protocolo.
-    let colorIndex: Int
     let onSave: (CompoundDraft) -> Void
 
     init(draft: CompoundDraft, protocolStart: Date, protocolEnd: Date, protocolSchedule: Schedule,
-         protocolHour: Int, protocolMinute: Int, isNew: Bool, colorIndex: Int, onSave: @escaping (CompoundDraft) -> Void) {
+         protocolHour: Int, protocolMinute: Int, isNew: Bool, onSave: @escaping (CompoundDraft) -> Void) {
         _draft = State(initialValue: draft)
         self.protocolStart = protocolStart
         self.protocolEnd = protocolEnd
@@ -27,7 +25,6 @@ struct CompoundFormView: View {
         self.protocolHour = protocolHour
         self.protocolMinute = protocolMinute
         self.isNew = isNew
-        self.colorIndex = colorIndex
         self.onSave = onSave
     }
 
@@ -38,7 +35,6 @@ struct CompoundFormView: View {
                 doseSection
                 scheduleSection
                 reminderSection
-                levelPreviewSection
                 requirementSection
                 Section("Observações") {
                     TextField("Opcional", text: $draft.notes, axis: .vertical)
@@ -82,11 +78,6 @@ struct CompoundFormView: View {
                 InfoRow(label: String(localized: "Meia-vida"), value: Formatting.halfLife(hours: entry.variant.halfLifeHours))
                 OriginBadge(origin: entry.variant.halfLifeOrigin)
                 InfoRow(label: String(localized: "Composto ativo"), value: Formatting.percentValue(entry.variant.activeDosePercent))
-                if !entry.isDepotModelEligible {
-                    Text("Fora do modelo de depósito oleoso (oral ou suspensão aquosa): sem perfil de liberação.")
-                        .font(.footnote)
-                        .foregroundStyle(Theme.textSecondary)
-                }
                 if let note = entry.variant.note {
                     Text(note)
                         .font(.footnote)
@@ -104,7 +95,7 @@ struct CompoundFormView: View {
             Text("Substância")
         } footer: {
             Text(draft.isCustom
-                 ? String(localized: "Até 40 caracteres. Compostos fora da lista não têm perfil de liberação.")
+                 ? String(localized: "Até 40 caracteres.")
                  : String(localized: "Escolha a substância e o éster na lista. A meia-vida, a origem dela e o % de composto ativo vêm do catálogo."))
         }
         .listRowBackground(Theme.surface)
@@ -135,35 +126,6 @@ struct CompoundFormView: View {
                 }
             }
         }
-    }
-
-    /// Prévia do perfil normalizado com a agenda e as datas atuais do formulário.
-    @ViewBuilder
-    private var levelPreviewSection: some View {
-        let schedule = draft.effectiveSchedule(protocolSchedule: protocolSchedule)
-        let hour = draft.usesCustomTime ? draft.hour : protocolHour
-        let minute = draft.usesCustomTime ? draft.minute : protocolMinute
-        Section {
-            if let entry = draft.catalogEntry, entry.isDepotModelEligible, schedule.isValid,
-               let series = ProfileSeriesBuilder.preview(name: draft.displayName, colorIndex: colorIndex, entry: entry,
-                                                         schedule: schedule, start: LocalDay(protocolStart), end: LocalDay(protocolEnd),
-                                                         hour: hour, minute: minute) {
-                ProfileChartView(series: [series], now: Date(), protocolEnd: LocalDay(protocolEnd).date(hour: 23, minute: 59))
-                    .padding(.vertical, 4)
-                ProfileStatsView(series: series)
-            } else {
-                Text(draft.catalogEntry == nil
-                     ? String(localized: "Escolha na lista um éster intramuscular para ver o perfil.")
-                     : String(localized: "Disponível só para ésteres intramusculares em veículo oleoso."))
-                    .font(.footnote)
-                    .foregroundStyle(Theme.textSecondary)
-            }
-        } header: {
-            Text("Perfil normalizado com esta agenda")
-        } footer: {
-            Text("Em múltiplos do pico de uma dose única: a forma muda com a frequência e os dias, não com a dose. V_d e F se cancelam na normalização; nenhuma concentração absoluta é inferível.")
-        }
-        .listRowBackground(Theme.surface)
     }
 
     private var doseSection: some View {

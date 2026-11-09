@@ -23,8 +23,6 @@ struct DisclaimerView: View {
                           text: String(localized: "O TRT-Tracker é uma ferramenta de registro e lembrete das suas aplicações."))
                     point(icon: "person.fill.questionmark",
                           text: String(localized: "As doses, os compostos e os protocolos são informados por você. O app não sugere nem ajusta doses."))
-                    point(icon: "chart.xyaxis.line",
-                          text: String(localized: "Os gráficos de liberação e de perfil são estimativas teóricas e normalizadas, feitas pela meia-vida de uma tabela de referência. Não indicam concentração no sangue e não substituem exames."))
                     point(icon: "stethoscope",
                           text: String(localized: "O app não substitui orientação médica. Siga sempre a prescrição do seu médico."))
                     point(icon: "lock.iphone",

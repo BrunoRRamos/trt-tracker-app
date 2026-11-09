@@ -131,3 +131,25 @@ struct InfoRow: View {
         .accessibilityElement(children: .combine)
     }
 }
+
+extension Optional where Wrapped == HalfLifeOrigin {
+    /// "t½ medido", "t½ extrapolado", "origem do t½ não informada"
+    var label: String {
+        switch self {
+        case .measured?: String(localized: "t½ medido")
+        case .extrapolated?: String(localized: "t½ extrapolado")
+        case nil: String(localized: "origem do t½ não informada")
+        }
+    }
+}
+
+/// Selo da origem da meia-vida tabelada no catálogo.
+struct OriginBadge: View {
+    let origin: HalfLifeOrigin?
+
+    var body: some View {
+        StatusBadge(title: origin.label,
+                    icon: origin == .measured ? "checkmark.seal" : "questionmark.diamond",
+                    color: origin == .measured ? Theme.textSecondary : Theme.warning)
+    }
+}

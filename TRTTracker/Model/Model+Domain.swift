@@ -136,13 +136,6 @@ extension Compound {
 
     /// Dose ativa por aplicação, em mg.
     var activeDoseMilligrams: Double { Double(doseMicrograms) / 1000 * activeFraction }
-
-    /// Variante do catálogo tratada pelo modelo de depósito oleoso (éster intramuscular); nil para orais,
-    /// suspensões aquosas e compostos fora da lista, que não têm perfil de liberação.
-    var depotEntry: CatalogEntry? {
-        guard let entry = catalogEntry, entry.isDepotModelEligible else { return nil }
-        return entry
-    }
 }
 
 extension Vial {

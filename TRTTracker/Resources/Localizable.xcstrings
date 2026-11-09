@@ -10,9 +10,6 @@
     "%@ adicionado ao estoque" : {
 
     },
-    "%@ após a aplicação" : {
-
-    },
     "%@ ativa" : {
 
     },
@@ -83,16 +80,6 @@
         }
       }
     },
-    "%@ · %@ intramusculares em veículo oleoso" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ · %2$@ intramusculares em veículo oleoso"
-          }
-        }
-      }
-    },
     "%@ · %@ · %@" : {
       "localizations" : {
         "pt-BR" : {
@@ -143,33 +130,7 @@
         }
       }
     },
-    "%@: agora %@ do pico de uma dose" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@: agora %2$@ do pico de uma dose"
-          }
-        }
-      }
-    },
-    "%@: agora %@ do pico de uma dose; estável entre %@ e %@" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@: agora %2$@ do pico de uma dose; estável entre %3$@ e %4$@"
-          }
-        }
-      }
-    },
     "%@: o estoque cobre menos de 7 dias." : {
-
-    },
-    "%@: sem perfil" : {
-
-    },
-    "%@×" : {
 
     },
     "%lld" : {
@@ -187,13 +148,7 @@
     "%lld vials" : {
 
     },
-    "%lld ésteres" : {
-
-    },
     "%lld%%" : {
-
-    },
-    "0,9" : {
 
     },
     "1 aplicação" : {
@@ -211,12 +166,6 @@
     "1 vial" : {
 
     },
-    "1 éster" : {
-
-    },
-    "1× = pico de uma dose" : {
-
-    },
     "2 h" : {
 
     },
@@ -227,12 +176,6 @@
 
     },
     "4 h" : {
-
-    },
-    "90%" : {
-
-    },
-    "90% da dose liberada (t_90)" : {
 
     },
     "A alteração da dose vale apenas para aplicações futuras." : {
@@ -460,9 +403,6 @@
     "Atrasadas" : {
 
     },
-    "Até 40 caracteres. Compostos fora da lista não têm perfil de liberação." : {
-
-    },
     "Avisar com %lld aplicação(ões) restante(s) no vial" : {
 
     },
@@ -475,25 +415,10 @@
     "Bloquear com %@" : {
 
     },
-    "Borda" : {
-
-    },
     "Buscar substância ou éster" : {
 
     },
-    "C / C_max (adimensional)" : {
-
-    },
-    "C/C_max" : {
-
-    },
-    "C_max relativo (propionato = 1)" : {
-
-    },
     "Cada composto pode ter o seu horário ou desligar o lembrete." : {
-
-    },
-    "Cada faixa é normalizada pelo pico de uma dose do próprio composto: compare formas, não alturas, e não some compostos diferentes." : {
 
     },
     "Cadastrar vial" : {
@@ -508,9 +433,6 @@
     "Calculado com o vial atual do composto. Não considera perdas." : {
 
     },
-    "Calculando métricas…" : {
-
-    },
     "Calendário" : {
 
     },
@@ -518,12 +440,6 @@
 
     },
     "Cancelar" : {
-
-    },
-    "Cinética de liberação do éster" : {
-
-    },
-    "Cinética dos ésteres" : {
 
     },
     "Com erro" : {
@@ -536,15 +452,6 @@
 
     },
     "Composto ativo" : {
-
-    },
-    "Composto fora do catálogo." : {
-
-    },
-    "Composto fora do catálogo: escolha na lista um éster intramuscular (Editar protocolo) para ver o perfil." : {
-
-    },
-    "Composto oral: não segue cinética de depósito oleoso." : {
 
     },
     "Compostos" : {
@@ -566,9 +473,6 @@
 
     },
     "Continuar" : {
-
-    },
-    "Cor ordenada por t½: mais clara = liberação mais rápida." : {
 
     },
     "Criar protocolo" : {
@@ -618,9 +522,6 @@
 
     },
     "Digite um número válido." : {
-
-    },
-    "Disponível só para ésteres intramusculares em veículo oleoso." : {
 
     },
     "Dom" : {
@@ -678,15 +579,6 @@
     "Em estoque" : {
 
     },
-    "Em múltiplos do pico de uma dose única. V_d e F se cancelam na normalização: nenhuma concentração absoluta é inferível. Não substitui exames." : {
-
-    },
-    "Em múltiplos do pico de uma dose única: a forma muda com a frequência e os dias, não com a dose. V_d e F se cancelam na normalização; nenhuma concentração absoluta é inferível." : {
-
-    },
-    "Em múltiplos do pico de uma dose única; faixas sobre %@." : {
-
-    },
     "Encerrado" : {
 
     },
@@ -706,9 +598,6 @@
 
     },
     "Escolha a substância e o éster na lista. A meia-vida, a origem dela e o % de composto ativo vêm do catálogo." : {
-
-    },
-    "Escolha na lista um éster intramuscular para ver o perfil." : {
 
     },
     "Escolha uma substância da lista." : {
@@ -733,9 +622,6 @@
 
     },
     "Esta ação é irreversível: o protocolo, seus compostos, vials e todo o histórico serão apagados." : {
-
-    },
-    "Estado estável a partir de" : {
 
     },
     "Este vial" : {
@@ -798,19 +684,7 @@
     "Exige autenticação ao abrir o app e ao voltar após 1 minuto em segundo plano. O conteúdo fica oculto no seletor de apps." : {
 
     },
-    "Exportar" : {
-
-    },
     "Extra" : {
-
-    },
-    "Faixa" : {
-
-    },
-    "Faixa de C/C_max de uma dose única para %@. Toque e arraste para ler." : {
-
-    },
-    "Faixa: %@." : {
 
     },
     "Faltam %@ no estoque; essa parte não será descontada." : {
@@ -823,18 +697,6 @@
 
     },
     "Fim" : {
-
-    },
-    "Fora do modelo de depósito oleoso (oral ou suspensão aquosa): sem perfil de liberação." : {
-
-    },
-    "Fração da dose" : {
-
-    },
-    "Fração da dose liberada (adimensional)" : {
-
-    },
-    "Fração da dose que já saiu do depósito. Depende só de k_a: a saída mais confiável do modelo." : {
 
     },
     "Frequência" : {
@@ -873,9 +735,6 @@
     "Igual ao volume total por padrão. Altere para cadastrar um vial que já foi aberto." : {
 
     },
-    "Incerteza do C_max (P95/P5)" : {
-
-    },
     "Informe a dose por aplicação." : {
 
     },
@@ -912,15 +771,6 @@
     "Lembretes ainda não ativados" : {
 
     },
-    "Liberação cumulativa" : {
-
-    },
-    "Liberação cumulativa por éster" : {
-
-    },
-    "Liberação cumulativa — %@" : {
-
-    },
     "Lote" : {
 
     },
@@ -933,22 +783,10 @@
     "Meia-vida" : {
 
     },
-    "Modelo de depósito intramuscular oleoso, com a meia-vida tabelada tratada como de absorção (flip-flop). V_d e F se cancelam na normalização: nenhuma concentração absoluta é inferível. Estimativa teórica; não substitui exames laboratoriais." : {
-
-    },
     "Motivo" : {
 
     },
-    "Máximo" : {
-
-    },
-    "Métricas" : {
-
-    },
     "Mês anterior" : {
-
-    },
-    "Mínimo" : {
 
     },
     "Negadas" : {
@@ -967,9 +805,6 @@
 
     },
     "Nenhum vial em estoque." : {
-
-    },
-    "Nenhum éster intramuscular" : {
 
     },
     "Nenhuma aplicação hoje" : {
@@ -1020,9 +855,6 @@
     "Não é possível excluir" : {
 
     },
-    "Níveis estimados" : {
-
-    },
     "Nível" : {
 
     },
@@ -1050,15 +882,6 @@
     "O mínimo é %@." : {
 
     },
-    "O perfil normalizado usa o modelo de depósito oleoso: escolha no catálogo um éster intramuscular para cada composto." : {
-
-    },
-    "O período não chega ao estado estável (5 meias-vidas de absorção = %@)." : {
-
-    },
-    "O protocolo precisa de pelo menos um composto. Os vials são cadastrados no detalhe de cada composto; a curva de nível estimado fica em Níveis estimados." : {
-
-    },
     "O registro fica vinculado à aplicação prevista escolhida. Aplicações extras também descontam volume." : {
 
     },
@@ -1072,9 +895,6 @@
 
     },
     "O volume restante não pode ser maior que o volume total." : {
-
-    },
-    "O éster não altera a exposição total" : {
 
     },
     "OK" : {
@@ -1095,12 +915,6 @@
     "Oral" : {
 
     },
-    "Oral ou suspensão aquosa: fora do modelo de depósito oleoso, sem perfil de liberação." : {
-
-    },
-    "Os gráficos de liberação e de perfil são estimativas teóricas e normalizadas, feitas pela meia-vida de uma tabela de referência. Não indicam concentração no sangue e não substituem exames." : {
-
-    },
     "Os lembretes deste protocolo não serão exibidos." : {
 
     },
@@ -1116,43 +930,16 @@
     "Para compostos fora da lista, informe o nome e, se souber, a meia-vida para ver a curva estimada." : {
 
     },
-    "Para o mesmo esteroide-pai e a mesma dose molar, a área sob a curva (AUC) é igual para qualquer éster: ele muda só a distribuição no tempo — pico alto e curto ou pico baixo e longo, com a mesma área." : {
-
-    },
-    "Perfil" : {
-
-    },
-    "Perfil normalizado" : {
-
-    },
-    "Perfil normalizado com esta agenda" : {
-
-    },
-    "Perfil normalizado do protocolo" : {
-
-    },
-    "Perfil plasmático normalizado (Bateman) de uma dose. k_e não é publicado: a faixa mostra o efeito de assumir valores diferentes." : {
-
-    },
     "Permitidas" : {
 
     },
     "Período" : {
 
     },
-    "Pico de uma dose" : {
-
-    },
-    "Pico estável" : {
-
-    },
     "Por aplicação" : {
 
     },
     "Por aplicação de %@" : {
-
-    },
-    "Por que não há valor absoluto" : {
 
     },
     "Porcentagem" : {
@@ -1280,9 +1067,6 @@
     "Selecione exatamente %lld dias." : {
 
     },
-    "Seleção" : {
-
-    },
     "Sem aplicações previstas até o fim do protocolo" : {
 
     },
@@ -1307,15 +1091,6 @@
     "Sem éster" : {
 
     },
-    "Sensibilidade a k_e" : {
-
-    },
-    "Sensibilidade a k_e — %@" : {
-
-    },
-    "Sensibilidade do perfil normalizado a k_e" : {
-
-    },
     "Seringa U-100: 1 ml = 100 UI." : {
 
     },
@@ -1331,9 +1106,6 @@
     "Sexta-feira" : {
 
     },
-    "Simulando V_d de 0,5 a 2 L/kg, F de 0,5 a 1 e a incerteza do t½ (×/÷1,2 se medido, ×/÷2 se extrapolado ou sem origem), o C_max absoluto varia %@× ou mais entre os percentis 5 e 95 (10⁴ amostras). Um valor pontual em ng/dL não se sustenta." : {
-
-    },
     "Situação: %@" : {
 
     },
@@ -1343,40 +1115,16 @@
     "Substância" : {
 
     },
-    "Suspensão aquosa: não segue cinética de depósito oleoso." : {
-
-    },
     "Sáb" : {
 
     },
     "Sábado" : {
 
     },
-    "Só ésteres intramusculares em veículo oleoso. Orais e suspensões aquosas não seguem cinética de depósito e ficam fora do modelo." : {
-
-    },
     "TRT-Tracker bloqueado" : {
 
     },
-    "TRT-Tracker · %@" : {
-
-    },
     "Tem certeza?" : {
-
-    },
-    "Tempo (h)" : {
-
-    },
-    "Tempo após a aplicação (escala log)" : {
-
-    },
-    "Tempo após uma aplicação" : {
-
-    },
-    "Tempo para liberar 90% da dose" : {
-
-    },
-    "Tempo para liberar 90% da dose (t_90)" : {
 
     },
     "Ter" : {
@@ -1395,12 +1143,6 @@
 
     },
     "Todos os protocolos, vials e o histórico serão apagados deste aparelho." : {
-
-    },
-    "Toque e arraste no gráfico para ler a faixa em cada data." : {
-
-    },
-    "Toque e arraste para ler a fração liberada de cada éster." : {
 
     },
     "Toque para escolher a data" : {
@@ -1425,9 +1167,6 @@
 
     },
     "Vai sobrar %@." : {
-
-    },
-    "Vale estável" : {
 
     },
     "Vale para todos os compostos, que podem ter a sua própria agenda." : {
@@ -1511,9 +1250,6 @@
     "há %@" : {
 
     },
-    "k_e com t½ de eliminação %@ h" : {
-
-    },
     "meia-vida %@" : {
 
     },
@@ -1526,46 +1262,19 @@
     "sem desconto de estoque" : {
 
     },
-    "sem perfil de liberação" : {
-
-    },
     "sobra %@" : {
-
-    },
-    "t_90 (dias)" : {
-
-    },
-    "t_max conforme o k_e assumido" : {
-
-    },
-    "t_max varia com o k_e assumido (%@). C_max relativo vale para dose molar igual do esteroide-pai, sob flip-flop." : {
 
     },
     "t½ %@" : {
 
     },
-    "t½ de absorção" : {
-
-    },
-    "t½ de eliminação %@ h" : {
-
-    },
     "t½ extrapolado" : {
-
-    },
-    "t½ extrapolado ou não informado" : {
 
     },
     "t½ medido" : {
 
     },
     "vazio" : {
-
-    },
-    "Éster" : {
-
-    },
-    "× pico de uma dose (adimensional)" : {
 
     },
     "Último dia" : {

@@ -115,11 +115,6 @@ public enum Formatting {
         return days + " dias"
     }
 
-    /// Duração: "6,5 h" (abaixo de 2 dias) ou "2,7 dias".
-    public static func duration(hours: Double) -> String {
-        halfLife(hours: hours)
-    }
-
     /// "69%", "87,5%"
     public static func percentValue(_ value: Double) -> String {
         decimal(Decimal(value), minFractionDigits: 0, maxFractionDigits: 1) + "%"
